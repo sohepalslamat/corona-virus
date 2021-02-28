@@ -1,5 +1,9 @@
 <template>
   <h1>Corona-Virus</h1>
+  <router-view></router-view>
+  <router-link to="/">الرئيسية</router-link>
+  | 
+  <router-link to="/home">صفحة الاحصاءات </router-link>
 </template>
 
 <script>
