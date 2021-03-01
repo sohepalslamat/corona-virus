@@ -6,6 +6,10 @@
 
 <script>
 export default {
+  async created(){
+    const {data} = await this.$api.get('worldstat.php')
+    console.log(data)
+  }
 
 }
 </script>
