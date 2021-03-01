@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-3">
-      <h3>احدث احصاءات الاصابات بفايروس كورونا حول االعالم</h3>
+      <h3>افحص نفسك</h3>
   </div>
 </template>
 
