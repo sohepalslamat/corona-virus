@@ -1,17 +1,17 @@
 <template>
-  <h1>Corona-Virus</h1>
+<div>
+  <nav-bar />
   <router-view></router-view>
-  <router-link to="/">الرئيسية</router-link>
-  | 
-  <router-link to="/home">صفحة الاحصاءات </router-link>
+</div>
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue'
 
 export default {
   name: 'App',
   components: {
+    NavBar
     
   }
 }
@@ -24,6 +24,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
