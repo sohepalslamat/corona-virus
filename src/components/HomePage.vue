@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-3">
-      <h3 class="text-center my-3"><span class="bg-danger text-light p-1"> مباشر</span> احصاءات الاصابات بفايروس كورونا حول االعالم</h3>
+      <h3 class="text-center my-3"><span class="bg-danger text-light p-1"> مباشر</span> احصاءات الاصابات بفايروس كورونا حول العالم</h3>
       <div class="container text-light text-center">
         <div class="row align-items-center justify-content-center">
           <div class="col-11 col-sm-5 bg-primary m-1 py-2 fs-3">
